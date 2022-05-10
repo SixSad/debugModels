@@ -1,4 +1,4 @@
-##Пакет Helpers для laravel микросервисов
+## Пакет DebugModels для lumen микросервисов
 
-###Установка пакета
+### Установка пакета
 - ```composer require sixsad/debug-models```
