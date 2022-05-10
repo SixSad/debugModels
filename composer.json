@@ -1,0 +1,21 @@
+{
+    "name": "sixsad/debug-models",
+    "description": "Debug models package for lumenapp",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sixsad\\DebugModels\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SixSad",
+            "email": "vizxs@bk.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
