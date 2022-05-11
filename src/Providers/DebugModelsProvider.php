@@ -14,14 +14,15 @@ class DebugModelsProvider extends ServiceProvider
     public function __construct($app)
     {
         parent::__construct($app);
-        $this->getConfig();
         $this->getNameSpace();
         $this->scanModels();
+        $app->configure('debugModel');
+        $this->getConfig();
     }
 
     private function getConfig()
     {
-        $this->config = config("debugModel");
+        $this->config = config('debugModel');
     }
 
     private function getNameSpace(): void
