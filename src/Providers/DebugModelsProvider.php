@@ -72,6 +72,7 @@ class DebugModelsProvider extends ServiceProvider
 
     public function register(): void
     {
+        // уменьшить вложенность 
         if ($this->config['include']) {
             foreach ($this->models as $model) {
                 ModelManager::loadModel($model);
